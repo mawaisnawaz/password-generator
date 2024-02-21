@@ -1,11 +1,8 @@
+import PasswordGenerator from '@/components/password-generator';
 import React from 'react';
 
-const Index = () => {
-  return (
-    <div>
-      Password Generator
-    </div>
-  );
+const PasswordGeneratorPage = () => {
+  return <PasswordGenerator />;
 };
 
-export default Index;
+export default PasswordGeneratorPage;

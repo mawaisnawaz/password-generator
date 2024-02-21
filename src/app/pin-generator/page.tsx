@@ -1,8 +1,8 @@
-import PasswordGenerator from '@/components/password-generator';
+import PinGenerator from '@/components/pin-generator';
 import React from 'react';
 
-const Page = () => {
-  return <PasswordGenerator />;
+const PinGeneratorPage = () => {
+  return <PinGenerator />;
 };
 
-export default Page;
+export default PinGeneratorPage;
